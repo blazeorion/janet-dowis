@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "Janet Dowis",
+    title: "Janet Dowis Quilts",
   },
   plugins: [
     {
@@ -20,5 +20,12 @@ module.exports = {
       },
     },
     "gatsby-plugin-image",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      },
+    },
   ],
 };
