@@ -19,6 +19,7 @@ module.exports = {
         defaultQuality: 50,
       },
     },
+    "gatsby-transformer-sharp",
     "gatsby-plugin-image",
     {
       resolve: "gatsby-source-filesystem",
