@@ -31,8 +31,8 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: `blog`,
-        path: `${__dirname}/src/images`,
+        name: `quiltphotos`,
+        path: `${__dirname}/quiltphotos`,
       },
     },
     "gatsby-plugin-mdx",
